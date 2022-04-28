@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="109.266304">
+<testcase classname="Title of your feature" name="Coupon creation" time="26.875377">
+<system-out><![CDATA[Given I navigate to the login page..........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given I navigate to coupon page.............................................passed
+When I create a coupon from home page.......................................passed
+Then I verify that the coupon created.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Coupon update" time="62.420091">
+<system-out><![CDATA[Given I navigate to the login page..........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given I navigate to coupon page.............................................passed
+When I updating the coupon details..........................................passed
+Then I verify that the coupon updated.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Delete Coupon" time="19.970836">
+<system-out><![CDATA[Given I navigate to the login page..........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given I navigate to coupon page.............................................passed
+When I deleting the coupon details..........................................passed
+Then I verify that the coupon deleted.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

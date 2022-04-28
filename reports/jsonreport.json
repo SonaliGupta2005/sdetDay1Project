@@ -1,0 +1,379 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8426166601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "RetailStepDef.launch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2048523200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit username and password",
+            "match": {
+              "location": "RetailStepDef.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3089223700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be logged in",
+            "match": {
+              "location": "RetailStepDef.dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-28T04:16:14.061Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7895732101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Coupon creation",
+        "description": "",
+        "id": "title-of-your-feature;coupon-creation",
+        "after": [
+          {
+            "result": {
+              "duration": 776633001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.afterannotation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 945388200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to coupon page",
+            "match": {
+              "location": "RetailStepDef.i_navigate_to_coupon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2624790900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I create a coupon from home page",
+            "match": {
+              "location": "RetailStepDef.i_create_a_coupon_from_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1065351800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that the coupon created",
+            "match": {
+              "location": "RetailStepDef.i_verify_that_the_coupon_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28905130700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "RetailStepDef.launch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23535587200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit username and password",
+            "match": {
+              "location": "RetailStepDef.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3085335400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be logged in",
+            "match": {
+              "location": "RetailStepDef.dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-28T04:16:40.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1627037400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Coupon update",
+        "description": "",
+        "id": "title-of-your-feature;coupon-update",
+        "after": [
+          {
+            "result": {
+              "duration": 695981299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.afterannotation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1399683900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I navigate to coupon page",
+            "match": {
+              "location": "RetailStepDef.i_navigate_to_coupon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2267719100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I updating the coupon details",
+            "match": {
+              "location": "RetailStepDef.i_updating_the_coupon_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 902709500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify that the coupon updated",
+            "match": {
+              "location": "RetailStepDef.i_verify_that_the_coupon_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5909145601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "RetailStepDef.launch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5849248001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit username and password",
+            "match": {
+              "location": "RetailStepDef.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3060931000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be logged in",
+            "match": {
+              "location": "RetailStepDef.dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-28T04:17:43.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1255835500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Delete Coupon",
+        "description": "",
+        "id": "title-of-your-feature;delete-coupon",
+        "after": [
+          {
+            "result": {
+              "duration": 715964499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass.afterannotation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 908295301,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to coupon page",
+            "match": {
+              "location": "RetailStepDef.i_navigate_to_coupon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207855601,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I deleting the coupon details",
+            "match": {
+              "location": "RetailStepDef.i_deleting_the_coupon_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2062764101,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I verify that the coupon deleted",
+            "match": {
+              "location": "RetailStepDef.i_verify_that_the_coupon_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
